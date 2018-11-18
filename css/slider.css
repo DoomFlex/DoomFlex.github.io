@@ -38,6 +38,22 @@ Slider
   background-color: #4a3553;
   background-image: url(../img/img-1.jpg);
 }
+
+.cd_gen  {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+    opacity: 1;
+  /* used to vertically center its content */
+  display: table;
+  background-size: cover;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-position: center center;
+  background-image: url(../img/Wild.jpg);
+  background-repeat: no-repeat;
+}
+
 .cd-slider > li:first-of-type, .cd-slider > li:nth-of-type(2), .cd-slider > li:nth-of-type(3), .cd-slider > li:nth-of-type(4) {
   background-size: cover;
 }
