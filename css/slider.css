@@ -43,12 +43,9 @@ Slider
   position: relative;
   width: 100%;
   height: 100vh;
-    opacity: 1;
   /* used to vertically center its content */
   display: table;
   background-size: cover;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   background-position: center center;
   background-image: url(../img/Wild.jpg);
   background-repeat: no-repeat;
