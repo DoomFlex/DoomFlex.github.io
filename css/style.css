@@ -111,7 +111,23 @@ ul:after {
     display: block;
     content: ' ';
     clear: both;
+    float: none;
+}
+ul.menus > li {
     float: right;
+    position: relative;
+}
+ul.menus > li > a {
+    display: list-item;
+    padding: 10px;
+    font-size: 25px;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+}
+ul.menus > li > a:hover {
+    background-color: white;
+    color: grey;
 }
 ul.menu > li {
     float: none;
@@ -151,6 +167,9 @@ ul.submenu > li > a {
 ul.submenu > li > a:hover {
     text-decoration: underline;
     color: black;
+}
+ul.menus > li:hover > ul.submenu {
+    display: list-item;
 }
 ul.menu > li:hover > ul.submenu {
     display: list-item;
