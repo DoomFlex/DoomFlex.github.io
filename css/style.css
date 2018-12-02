@@ -3170,26 +3170,9 @@ p.tweet:before {
     float: left;
 }
 
-@media (min-width: 768px) {
-    .col-sm-5ths {
-        width: 20%;
-        float: left;
-    }
-}
-
-@media (min-width: 992px) {
-    .col-md-5ths {
-        width: 20%;
-        float: left;
-    }
-}
-
-@media (min-width: 1200px) {
-    .col-lg-5ths {
-        width: 20%;
-        float: left;
-    }
-}
+@media screen and (max-width: 1280px) { div.contentblock {width: 1200px;} }
+@media screen and (max-width: 1140px) { div.contentblock {width: 1024px;} }
+@media screen and (max-width: 992px) { div.contentblock {width: 970px;} }
 
 .process-item i {
   color: #00ADB5;
