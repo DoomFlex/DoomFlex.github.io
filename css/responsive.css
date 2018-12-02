@@ -5,11 +5,6 @@
 	margin: 0 6px 6px 0;
 }
 
-.promo-box-first,
-.promo-box-second,
-.promo-box-third {
-	padding: 120px 60px;
-}
 
 .core-features.style-1 .features-item:first-child.features-right {
   margin-top: 0;
@@ -156,7 +151,7 @@ header .navbar .navbar-collapse.in .navbar-nav li a, .nav>li>a {
   padding: 17px 0; border-bottom: 1px solid #ecf0f1;
 }
 
-header .navbar.left-header.dark .navbar-collapse.in .navbar-nav li a, 
+header .navbar.left-header.dark .navbar-collapse.in .navbar-nav li a,
 .navbar.left-header.dark .nav>li>a {
   border-bottom: 1px solid #282b2c;
 }
@@ -401,7 +396,7 @@ header .navbar .navbar-collapse .navbar-nav li ul.dropdown-menu li a {
 
 
 @media (max-width: 678px) {
-  
+
 .team-member {
   width: 100%;
   margin: 0 6px 6px 0;
