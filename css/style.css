@@ -101,9 +101,59 @@ a:focus {
 }
 
 ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: right;
+}
+ul.menu > li {
+    float: none;
+    position: relative;
+}
+ul.menu > li > a {
+    display: list-item;
+    padding: 10px;
+    font-size: 25px;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+}
+ul.menu > li > a:hover {
+    background-color: white;
+    color: grey;
+}
+ul.submenu {
+    display: none;
+    position: relative;
+    width: 700px;
+    top: 0px;
+    left: 0;
+    background-color: white;
+
+}
+ul.submenu > li {
+    display: list-item;
+}
+ul.submenu > li > a {
+    display:  list-item;
+    padding: 10px;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+}
+ul.submenu > li > a:hover {
+    text-decoration: underline;
+    color: black;
+}
+ul.menu > li:hover > ul.submenu {
+    display: list-item;
 }
 
 body {
@@ -116,7 +166,7 @@ body {
   background: #fff;
   outline: 0;
   overflow-x: hidden;
-  overflow-y: auto; 
+  overflow-y: auto;
 }
 
 video {
@@ -354,7 +404,7 @@ p {
 
 .navigation.sticky #search {
   padding: 20px 15px 21px;
-} 
+}
 
 #search i {
   font-size: 20px;
@@ -366,7 +416,7 @@ p {
   background-color: #222831;
 }
 
-.search-bar { 
+.search-bar {
   width: 450px;
   overflow: hidden;
   display: none;
@@ -674,7 +724,7 @@ h3.cta-subheading {
 
 #cta-button-stroke {
   padding: 11px 35px;
-}  
+}
 
 #cta-button-solid {
   color: #00ADB5;
@@ -721,7 +771,7 @@ h3.cta-subheading {
 .features-item {
   margin-top: 38px;
   padding: 0 0 0 72px;
-  position: relative; 
+  position: relative;
 }
 
 .features-item.features-right .features-icon {
@@ -836,12 +886,12 @@ h3.cta-subheading {
 
 .entry-text {
   border-bottom: 1px solid #EEEEEE;
-  padding-bottom: 39px; 
+  padding-bottom: 39px;
 }
 
 .entry-text:last-child {
   border-bottom: none;
-  padding-bottom: 0; 
+  padding-bottom: 0;
 }
 
 .entry-text span.blog-data {
@@ -1304,9 +1354,9 @@ ul.recent-works {
   background-color: #92d11d;
 }
 
-.service-item-box.first a:hover, 
-.service-item-box.second a:hover, 
-.service-item-box.third a:hover, 
+.service-item-box.first a:hover,
+.service-item-box.second a:hover,
+.service-item-box.third a:hover,
 .service-item-box.fourth a:hover {
   color: #45464b;
 }
@@ -1475,7 +1525,7 @@ ul.recent-works {
   background-color: #00ADB5;
   color: #fff;
 }
- 
+
 #cta-button-blue-solid:hover {
   background: transparent;
   color: #fff;
@@ -2190,7 +2240,7 @@ ul.recent-works {
   float: right;
 }
 
-.progress-dark.meter { 
+.progress-dark.meter {
   height: 15px;  /* Can be anything */
   border-radius: 2px;
   position: relative;
@@ -2199,7 +2249,7 @@ ul.recent-works {
   padding: 4px;
 }
 
-.progress-light.meter { 
+.progress-light.meter {
   height: 15px;  /* Can be anything */
   border-radius: 2px;
   position: relative;
@@ -2208,7 +2258,7 @@ ul.recent-works {
   padding: 4px;
 }
 
-.progress-gradient.meter { 
+.progress-gradient.meter {
   height: 15px; /* Can be anything */
   border-radius: 2px;
   position: relative;
@@ -2225,7 +2275,7 @@ ul.recent-works {
   background-color: #f05135; /* paste any color here */
 }
 
-.meter.yellow > .progress-bar { 
+.meter.yellow > .progress-bar {
   display: block;
   height: 7px;
   border-radius: 2px;
@@ -2383,8 +2433,8 @@ ul.recent-works {
   height: 100%;
   border-radius: 0;
   content: '';
-  -webkit-box-sizing: content-box; 
-  -moz-box-sizing: content-box; 
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
   box-sizing: content-box;
 }
 
@@ -2547,7 +2597,7 @@ select:focus {
   -moz-box-shadow: 0px 1px 2px 0px rgba(165, 173, 175, 0.15);
   -webkit-box-shadow: 0px 1px 2px 0px rgba(165, 173, 175, 0.15);
   background-color: #fff;
-  margin-bottom: 50px;  
+  margin-bottom: 50px;
 }
 
 .entry {
@@ -2831,7 +2881,7 @@ p.tweet:before {
 .widget.popular-latest .tab-content .tab-pane > ul > li {
   padding-bottom: 20px;
   border-bottom: 1px solid #EEEEEE;
-  margin-top: 20px; 
+  margin-top: 20px;
 }
 
 .widget.popular-latest .tab-content ul li:last-child {
@@ -3386,7 +3436,7 @@ blockquote {
 blockquote > p {
   font-size: 18px;
   font-style: italic;
-  margin-bottom: 5px !important; 
+  margin-bottom: 5px !important;
   position: relative;
 }
 
@@ -3460,7 +3510,7 @@ blockquote > span {
   content: "• ";
   font-size: 14px;
   color: #00ADB5;
-  padding-right: 0.5em; 
+  padding-right: 0.5em;
 }
 
 .arrows i {
@@ -3583,7 +3633,7 @@ ol.numbers {
 #content-wrap {
   margin-left: 260px;
   position: relative;
-  width: auto; 
+  width: auto;
 }
 
 #header {
