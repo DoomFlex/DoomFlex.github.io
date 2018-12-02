@@ -146,12 +146,13 @@ ul.menu > li > a:hover {
     color: grey;
 }
 ul.submenu {
-    display: none;
-    position: relative;
-    width: 400px;
-    top: 0px;
-    left: 0;
-    background-color: white;
+      display: none;
+      position: absolute;
+      
+      top: 50px;
+      left: 0;
+      background-color: white;
+      border: 1px solid red;
 
 }
 ul.submenu > li {
@@ -169,9 +170,12 @@ ul.submenu > li > a:hover {
     color: black;
 }
 ul.menus > li:hover > ul.submenu {
-    display: inline-block;
+
+  display: inline-flex;
+
 }
 ul.menu > li:hover > ul.submenu {
+
     display: list-item;
 }
 
