@@ -274,7 +274,7 @@ p {
   left:0;
   right:0;
   bottom:0;
-  background-color:#fff; /* change if the mask should have another color then white */
+  background-color:black; /* change if the mask should have another color then white */
   z-index:99999; /* makes sure it stays on top */
 }
 
@@ -285,8 +285,9 @@ p {
   left:50%; /* centers the loading animation horizontally one the screen */
   top:50%; /* centers the loading animation vertically one the screen */
   background-image:url(../upload/preloader.gif); /* path to your loading animation */
-  background-repeat:no-repeat;
-  background-position:center;
+  /*background-repeat:no-repeat;*/
+
+  background-position: center center;
   margin:-100px 0 0 -100px; /* is width and height divided by two */
 }
 
