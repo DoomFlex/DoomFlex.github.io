@@ -114,7 +114,7 @@ ul:after {
     float: none;
 }
 ul.menus > li {
-    float: right;
+    float: left;
     position: relative;
 }
 ul.menus > li > a {
