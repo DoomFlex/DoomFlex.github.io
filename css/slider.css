@@ -39,6 +39,18 @@ Slider
   background-image: url(../img/img-2.jpg);
 
 }
+.cd-slider2 > li {
+  background-color: #bebebe;
+  position: relative;
+  vertical-align: middle;
+  text-align: center;
+  z-index: 2;
+  opacity: 1;
+background-size: cover;
+  background-position: center center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 
 .cd_gen  {
   position: relative;

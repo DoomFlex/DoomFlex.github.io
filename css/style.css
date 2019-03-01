@@ -367,6 +367,10 @@ p {
   padding: 20px 0 19px;
 }
 
+.navigation.overlay.sticky .log {
+  padding: 20px 0 19px;
+}
+
 .navigation.sticky > img {
   margin-bottom: 1px;
 }
@@ -379,6 +383,15 @@ p {
 }
 .logo i {
   color: #ff524a;
+}
+.log {
+  padding: 50px 0;
+}
+.log a {
+  font-size: 50px;
+}
+.log i {
+  color: #ff0000;
 }
 .navigation.sticky .logo {
   padding: 20px 0;
