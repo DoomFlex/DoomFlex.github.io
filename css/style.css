@@ -384,6 +384,9 @@ p {
 .logo i {
   color: #ff524a;
 }
+.logo r {
+  color: #900000;
+}
 .log {
   padding: 50px 0;
 }
