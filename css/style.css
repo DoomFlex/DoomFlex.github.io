@@ -115,7 +115,7 @@ ul:after {
 }
 ul.menus > li {
     float: left;
-    position: static;
+    position: relative;
 }
 ul.menus > li > a {
     display: flex;
@@ -323,12 +323,12 @@ p {
 /*-------------------------------------------------------*/
 
 .navbar-default {
-  background: #f2f3f4;
+  background: #EEEEEE;
 }
 
 .navigation,
 .left-header {
-  background: #f2f3f4;
+  background: #fff;
   width: 100%;
   z-index: 500;
   line-height: 0;
@@ -351,7 +351,7 @@ p {
 }
 
 .navigation.overlay.sticky {
-  background: #f2f3f4;
+  background: #fff;
 }
 
 .navigation.overlay .logo-dark,
@@ -367,10 +367,6 @@ p {
   padding: 20px 0 19px;
 }
 
-.navigation.overlay.sticky .log {
-  padding: 20px 0 19px;
-}
-
 .navigation.sticky > img {
   margin-bottom: 1px;
 }
@@ -382,19 +378,10 @@ p {
   font-size: 25px;
 }
 .logo i {
-  color: #ff524a;
+  color: #00ADB5;
 }
 .logo r {
   color: #900000;
-}
-.log {
-  padding: 50px 0;
-}
-.log a {
-  font-size: 50px;
-}
-.log i {
-  color: #ff0000;
 }
 .navigation.sticky .logo {
   padding: 20px 0;
@@ -435,7 +422,7 @@ p {
 }
 
 .navigation.overlay.sticky .navbar-nav > li > a {
-  color: #37383c;
+  color: #45464b;
 }
 
 
@@ -555,12 +542,12 @@ p {
 
 .navbar-toggle:focus .icon-bar,
 .navbar-toggle:hover .icon-bar {
-  background-color: #ff3d33 !important;
+  background-color: #00ADB5 !important;
 }
 
 .navbar-toggle:focus,
 .navbar-toggle:hover {
-  background-color: #bEbEbE !important;
+  background-color: #EEEEEE !important;
 }
 
 
@@ -726,7 +713,7 @@ p {
 }
 
 .service-item.icon-blue i {
-  color: #ff3d33;
+  color: #00ADB5;
 }
 
 .service-item.icon-violet i {
@@ -742,7 +729,7 @@ p {
 /*Call to Action*/
 
 .call-to-action {
-  background-color: #ff3d33;
+  background-color: #00ADB5;
   padding: 110px 0;
 }
 
@@ -770,7 +757,7 @@ h3.cta-subheading {
 }
 
 #cta-button-solid {
-  color: #ff3d33;
+  color: #00ADB5;
 }
 
 #cta-button-solid:hover {
@@ -821,7 +808,7 @@ h3.cta-subheading {
   position: absolute;
   width: 46px;
   height: 46px;
-  background-color: #ff3d33;
+  background-color: #00ADB5;
   color: #fff;
   font-size: 20px;
   text-align: center;
@@ -834,7 +821,7 @@ h3.cta-subheading {
 .features-item .features-icon {
   width: 46px;
   height: 46px;
-  background-color: #ff3d33;
+  background-color: #00ADB5;
   color: #fff;
   font-size: 20px;
   text-align: center;
@@ -1077,7 +1064,7 @@ h3.cta-subheading {
 
 .contact-icon i {
   font-size: 22px;
-  color: #ff3d33;
+  color: #00ADB5;
   line-height: 50px;
 }
 
@@ -1986,10 +1973,10 @@ ul.recent-works {
 }
 
 .nav.nav-tabs > li.active > a{
-  border: 1px solid #bEbEbE;
+  border: 1px solid #EEEEEE;
   background-color: rgb( 255, 255, 255 );
   padding: 13px 20px;
-  color: #ff3d33;
+  color: #00ADB5;
 }
 
 .nav-tabs > li > a {
