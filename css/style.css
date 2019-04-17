@@ -115,7 +115,7 @@ ul:after {
 }
 ul.menus > li {
     float: left;
-    position: relative;
+    position: static;
 }
 ul.menus > li > a {
     display: flex;
