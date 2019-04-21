@@ -34,6 +34,17 @@ Slider
   z-index: 2;
   opacity: 1;
 }
+.cd-slider2 > li.visibl2 {
+  /* selected slide */
+  position: relative;
+  vertical-align: middle;
+  text-align: center;
+  z-index: 2;
+  opacity: 1;
+  background-size: cover;
+    background-position: center center;
+    -webkit-font-smoothing: antialiased;
+}
 .cd-slider > li:first-of-type {
   background-color: #4a3553;
   background-image: url(../img/img-2.jpg);
